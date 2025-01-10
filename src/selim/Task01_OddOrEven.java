@@ -19,7 +19,7 @@ Write a method that can identify  a given number is even or odd.
     /**
      *
      * @param n
-     * İs identify the n is even or odd
+     * İs identify the n  even or odd
      */
 
       public static String identify(int n) {
