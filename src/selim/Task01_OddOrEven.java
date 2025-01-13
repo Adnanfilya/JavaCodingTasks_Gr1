@@ -16,6 +16,10 @@ Write a method that can identify  a given number is even or odd.
           System.out.println("identify(6) = " + identify(6));
       }
 
+    /**
+     * identify return nums even or odd
+     *
+     */
       public static String identify(int n) {
           if(n<0){
               System.err.println("num can not be negative");
