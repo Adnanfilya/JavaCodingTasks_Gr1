@@ -10,6 +10,7 @@ Write a method that can identify  a given number is even or odd.
      */
     public static void main(String[] args) {
 
+
         identify(55);
         identify(66);
         identify(0);
@@ -25,6 +26,7 @@ Write a method that can identify  a given number is even or odd.
 
         String result = num % 2 == 0 ? "even" : "odd";
         System.out.println(result);
+
 
     }
 }
