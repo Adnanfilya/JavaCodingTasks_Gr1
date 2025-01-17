@@ -23,7 +23,7 @@ public class Task01_OddOrEven {
 
         public static String identify(int n) {
             if(n<0){
-                System.err.println("num can not be negative");
+                System.err.println("number can not be negative");
             }
             if (n % 2 == 0) {
                 return "Even";
