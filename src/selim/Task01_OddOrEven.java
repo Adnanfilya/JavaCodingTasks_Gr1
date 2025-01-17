@@ -11,6 +11,8 @@ public class Task01_OddOrEven {
         public static void main(String[] args) {
             System.out.println("identify(5) = " + identify(5));
             System.out.println("identify(6) = " + identify(6));
+            System.out.println("identify(-1) = " + identify(-1));
+
         }
         /**
          *
