@@ -9,6 +9,10 @@ public class Task2_Finra {
         finra();
     }
 
+    /**
+     *created custom method for finra
+      */
+
     public static void finra() {
         for (int i = 1; i <= 30; i++) {
             if (i % 3 == 0 && i % 5 == 0) {
