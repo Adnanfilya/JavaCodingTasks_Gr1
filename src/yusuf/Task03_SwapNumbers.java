@@ -9,6 +9,11 @@ public class Task03_SwapNumbers {
         swapNumberWithoutTemp(30,20);
     }
 
+    /**
+     * Made custom methods to call it them in main method.
+     */
+
+    //Swap Numbers using temporary variable
     public static void swapNumberWithTemp(int num1, int num2) {
         int temp;
 
@@ -23,6 +28,7 @@ public class Task03_SwapNumbers {
         System.out.println("Swapper Number 2: " + num2);
     }
 
+    //Swap Numbers without using temporary variable
     public static void swapNumberWithoutTemp(int a, int b) {
 
         System.out.println("Old number 1: " + a);
