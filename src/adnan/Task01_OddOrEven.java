@@ -1,8 +1,10 @@
 package adnan;
 
 public class Task01_OddOrEven {
+
     // codes from Sultan
-    /*
+    // Code from adnan 
+
 Write a method that can identify  a given number is even or odd.
 
        EX:
