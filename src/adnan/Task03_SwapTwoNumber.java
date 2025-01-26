@@ -16,14 +16,14 @@ public class Task03_SwapTwoNumber {
      * with using a third one
      */
     public static void swapTwoNumber1(int num1, int num2) {
-
+        System.out.println("Before swap :" + num1 + "---" + num2);
         int num3 = 0;
 
         num3 = num1;
         num1 = num2;
         num2 = num3;
 
-        System.out.println(num1 + "-" + num2 + "-" + num3);
+        System.out.println("After swap :" + num1 + "---" + num2);
     }
 
     /**
@@ -32,14 +32,14 @@ public class Task03_SwapTwoNumber {
      * simple math
      */
     public static void swapTwoNumber2(int num1, int num2) {
-
+        System.out.println("Before swap :" + num1 + "---" + num2);
 
         num1 += num2;
         num2 = num1 - num2;
         num1 = num1 - num2;
 
 
-        System.out.println(num1 + "*" + num2);
+        System.out.println("After swap :" + num1 + "---" + num2);
     }
 
 
