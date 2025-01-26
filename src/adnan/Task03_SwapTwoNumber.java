@@ -29,7 +29,7 @@ public class Task03_SwapTwoNumber {
     /**
      * custom class which swaps two integer
      * without using a third one
-     * simple math
+     * simple math add function
      */
     public static void swapTwoNumber2(int num1, int num2) {
         System.out.println("Before swap :" + num1 + "---" + num2);
