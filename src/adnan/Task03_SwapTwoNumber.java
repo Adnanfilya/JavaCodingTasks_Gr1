@@ -17,7 +17,7 @@ public class Task03_SwapTwoNumber {
      */
     public static void swapTwoNumber1(int num1, int num2) {
         System.out.println("Before swap :" + num1 + "---" + num2);
-        int num3 = 0;
+        int num3;
 
         num3 = num1;
         num1 = num2;
