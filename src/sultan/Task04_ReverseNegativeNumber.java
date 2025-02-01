@@ -20,7 +20,7 @@ public class Task04_ReverseNegativeNumber {
 
 
     /**
-     * Reversing the given number with a while method
+     * Reversing the given number with a while loop
      *
      * @param number
      * @return
@@ -28,7 +28,7 @@ public class Task04_ReverseNegativeNumber {
     public static int reverseNumber(int number) {
         int reversedNumber = 0;
 
-        while (number != 0) {
+        while (number != 0 && number<0) {
             int lastDigit = number % 10;                        // Getting the last digit
             reversedNumber = reversedNumber * 10 + lastDigit;   // Build the reversed number
             number /= 10;                                       // Removing the last digit
