@@ -12,7 +12,7 @@ public class Task03_SwapTwoNumber {
     }
 
     /**
-     * custom class which swaps two integer
+     * custom method which swaps two integer
      * with using a third one
      */
     public static void swapTwoNumber1(int num1, int num2) {
@@ -27,9 +27,9 @@ public class Task03_SwapTwoNumber {
     }
 
     /**
-     * custom class which swaps two integer
-     * without using a third one
-     * simple math add function
+     *
+     * @param num1
+     * @param num2
      */
     public static void swapTwoNumber2(int num1, int num2) {
         System.out.println("Before swap :" + num1 + "---" + num2);

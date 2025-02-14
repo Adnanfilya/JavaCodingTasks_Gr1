@@ -10,7 +10,7 @@ input: -35  output: -53
 
         System.out.println(reverseDigits(0));
         System.out.println(reverseDigits(30));
-        System.out.println(reverseDigits(-35));
+        System.out.println(reverseDigits(-353));
 
     }
 
@@ -23,14 +23,16 @@ input: -35  output: -53
      */
     public static int reverseDigits(int num) {
 
-        if (num >= 0){
-            System.out.print("Number cant be positive or equal to 0. Given num: ");
-            return num;
+        //Exception will be thrown if user enters invalid(positive or equal to 0)
+        if (num >= 0) {
+            throw new IllegalArgumentException("Number cannot be equal to zero or positive given num: " + num);
         }
+
+        //TODO: Check that part!
         int reversed = 0;
         while (num < 0) { //Continue if there is a digit
-            int digit = num % 10; //Take the last digit
-            reversed = reversed * 10 + digit; //Assign the new number to the reversed variable.
+            int lastDigit = num % 10; //Take the last digit
+            reversed = reversed * 10 + lastDigit; //Assign the new number to the reversed variable
             num /= 10; //We removed last digit, with while loop we are moving to the next digit.
         }
         return reversed;
