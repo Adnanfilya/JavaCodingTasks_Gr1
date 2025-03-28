@@ -6,7 +6,7 @@ public class T09_Password_Validation {
         System.out.println(isValidPassword("asda1"));
         System.out.println(isValidPassword("ASa2 1"));
         System.out.println(isValidPassword("asDD11"));
-        System.out.println(isValidPassword("asd34AQ,@:"));
+        System.out.println(isValidPassword("asd34AQ,@"));
 
     }
 
