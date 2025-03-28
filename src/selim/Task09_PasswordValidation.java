@@ -15,7 +15,7 @@ public class Task09_PasswordValidation {
         System.out.println("Is password valid? " + isValidPassword(password));
     }
     /**
-     * this method determine is password  valid or not
+     * this method determine is password  valid or not(Abc@123)
      * @param password
      * @return
      */
