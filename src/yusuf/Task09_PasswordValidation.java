@@ -40,8 +40,6 @@ If all requirements above are met, the method returns true; otherwise, returns f
         // No letter
         System.out.println("Password should contain at least one letter. Requirement met: " + passValidation("44312!56"));
 
-
-
     }
 
     /**
