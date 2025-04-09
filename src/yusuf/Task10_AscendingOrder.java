@@ -20,7 +20,7 @@ public class Task10_AscendingOrder {
 
     /**
      * Method that returns sorted version of any array we give.
-     * @param defaultArray
+     * @param defaultArray from main method
      * @return defaultArray no new Array returns.
      */
     public static int[] sortedArray(int[] defaultArray) {
